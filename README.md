@@ -2,7 +2,7 @@
 
 Este proyecto es una herramienta computacional desarrollada para la materia de **Matemáticas Avanzadas para la Ingeniería**.
 
-## 📋 Descripción del Proyecto
+## Descripción del Proyecto
 
 Su objetivo principal es aplicar conceptos de análisis de Fourier para limpiar señales de audio y validar matemáticamente el proceso. La aplicación permite cargar archivos de audio, analizar su espectro de frecuencias mediante la Transformada Rápida de Fourier (FFT), aplicar filtros diseñados en el dominio de la frecuencia y reconstruir la señal limpia. Además, se verifica la conservación de la energía utilizando el **Teorema de Parseval**.
 
@@ -13,7 +13,7 @@ Su objetivo principal es aplicar conceptos de análisis de Fourier para limpiar 
 * Proveer una interfaz gráfica que facilite la visualización comparativa de señales en tiempo y frecuencia.
 * Proveer una interfaz gráfica que facilite la visualización comparativa de señales en tiempo y frecuencia.
 
-## 🗂 Estructura del Repositorio
+## Estructura del Repositorio
 
 El proyecto sigue una arquitectura modular para facilitar la escalabilidad y la revisión:
 
@@ -29,7 +29,7 @@ Denoising
 ├── main.py                  # Script principal de ejecución
 └── requirements.txt         # Dependencias del proyecto
 ```
-## ⚙️ Requisitos Previos
+## Requisitos Previos
 El código está desarrollado en Python. Para asegurar que el proyecto se ejecute correctamente en cualquier entorno, se requieren las siguientes librerías:
 
 * NumPy
@@ -39,7 +39,7 @@ El código está desarrollado en Python. Para asegurar que el proyecto se ejecut
 
 Python 3.8 o superior
 
-## 🚀 Instalación y Ejecución
+## Instalación y Ejecución
 1. Obtención del código
 Primero, asegúrese de tener Git instalado en su sistema verificando con `git --version`. Si no lo tiene, descárguelo desde git-scm.com.
 
@@ -70,7 +70,7 @@ python3 main.py
 
 Nota: La interfaz incluye controles de reproducción de audio. Asegúrese de contar con salida de audio activa en su equipo.
 
-🧪 Metodología Matemática
+Metodología Matemática
 
 El núcleo del procesamiento se basa en:
 
@@ -86,7 +86,7 @@ El núcleo del procesamiento se basa en:
 
 	* Teorema de Parseval: La energía total en el tiempo es igual a la energía total en la frecuencia.
 
-📄 Licencia y Datos
+Licencia y Datos
 
 Código: De uso libre para fines académicos.
 
