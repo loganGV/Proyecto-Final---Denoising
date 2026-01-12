@@ -11,6 +11,7 @@ Su objetivo principal es aplicar conceptos de análisis de Fourier para limpiar 
 * Implementar filtrado en frecuencia (pasa-bajas, pasa-altas, pasa-banda, notch).
 * Validar resultados numéricamente (MSE/SNR) y teóricamente (Parseval).
 * Proveer una interfaz gráfica que facilite la visualización comparativa de señales en tiempo y frecuencia.
+* Proveer una interfaz gráfica que facilite la visualización comparativa de señales en tiempo y frecuencia.
 
 ## 🗂 Estructura del Repositorio
 

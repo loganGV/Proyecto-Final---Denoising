@@ -4,9 +4,10 @@ from scipy.io import wavfile
 
 def cargar_audio(ruta_relativa):
     """
-    Carga un archivo .wav, convierte a mono y normaliza a rango [-1, 1].
+    Carga un archivo .wav, lo convierte a mono y lo normaliza al rango [-1, 1].
+    Retorna: fs (frecuencia), data (array numpy float32), error (str o None).
     """
-    # Verificamos si existe el archivo
+    # Validación básica de existencia
     if not os.path.exists(ruta_relativa):
         return None, None, f"Error: El archivo '{ruta_relativa}' no existe."
 
@@ -50,7 +51,6 @@ def guardar_audio(ruta_destino, fs, data):
         wavfile.write(ruta_destino, fs, data_int16)
         print(f"-> Archivo guardado exitosamente en: {ruta_destino}")
         return True
-    
     except Exception as e:
         print(f"Error al guardar audio: {e}")
         return False
