@@ -45,7 +45,7 @@ Primero, asegúrese de tener Git instalado en su sistema verificando con `git --
 
 Una vez listo, clone el repositorio:
 
-git clone https://github.com/loganGV/Proyecto_Final_Denoising.git
+git clone https://github.com/loganGV/Proyecto-Final---Denoising
 cd Proyecto_Final_Denoising
 
 2. Preparación del entorno
